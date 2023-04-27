@@ -13,7 +13,7 @@ h1, h3, p{
   font-family: Arial, Helvetica, sans-serif;
 }
 h3{
-  margin: 10px 0;
+  margin: 10px 0;  
 }
 strong{
   font-weight: 900;
@@ -286,6 +286,38 @@ strong{
 	font-size: 14px;
 	color: black;
 }
+@media screen and (min-width: 1200px) {
+  .h3 .p {
+    color: red;
+  }
+}
+@media (orientation: landscape) {
+  .container > article {
+    color: rgb(255, 4, 201);
+  }
+}
+@media (orientation: portrait) {
+  .container {
+    color: rgb(148, 26, 255);
+  }
+}
+@media screen and (max-width: 800px) {
+  .intro {
+    border-top: 3px solid rgba(0, 0, 0, 0.33);
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .h3 {
+    padding: 5px;
+    margin: 0;
+  }
+  .h3 .p {
+    padding: 0 10px 10px;
+    border-right: none;
+    border-left: none;
+  }
+}
 /*memes page*/
 .intro{
   display:  block;
@@ -306,13 +338,8 @@ strong{
  font-family: 'Viga', sans-serif; 
 }
 .container > article {
-  border: 1px solid #fa6fbb;
+  border: 2px solid #fa6fbb;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.33);
-}
-@media (orientation: landscape) {
-  .container > article {
-    color: red;
-  }
 }
 .h3 {
   padding: 10px;
@@ -342,7 +369,6 @@ strong{
   box-shadow: 0 0 10px #00ffff, 0 0 15px #f104b2, 0 0 20px #f178d7;
   overflow: hidden;
 }
-
 #map {
   width: 800px;
   height: 600px;
@@ -358,14 +384,3 @@ strong{
   margin-left: auto;
   margin-right: auto;
   }
- 
-@media screen {
-  body {
-    color: black;
-  }
-}
-@media (orientation: portrait) {
-  body {
-    color: navy;
-  }
-}
