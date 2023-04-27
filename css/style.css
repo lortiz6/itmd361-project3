@@ -3,7 +3,7 @@
 @keyframes animate {
 	33% {
 		color: cyan;
-	}
+	} 
 }
 body {
   background: #bbb0b0;
@@ -12,11 +12,9 @@ body {
 h1, h3, p{
   font-family: Arial, Helvetica, sans-serif;
 }
-
 h3{
   margin: 10px 0;
 }
-
 strong{
   font-weight: 900;
 }
@@ -193,7 +191,6 @@ strong{
   margin-top: -40px;
   transition-delay: 0.3s;
 }
-
 /*resume page*/
 .page2 {
   margin: 0px;
@@ -248,7 +245,6 @@ strong{
 .col-div-4{
 	width: 35%;
 	float: right;
-
 }
 .col-div-8{
 	width: 62%;
@@ -331,6 +327,16 @@ strong{
   border-left: 5px solid black;
 }
 /*Places Page*/
+#map {
+  width: fit-content;
+  display: flex;
+	justify-content: left;
+	animation: animate 20s linear infinite;
+	border-radius: 5px;
+	z-index: 140;
+  box-shadow: 0 0 10px #00ffff, 0 0 15px #f104b2, 0 0 20px #f178d7;
+  overflow: hidden;
+}
 
 #map {
   width: 800px;
@@ -339,7 +345,6 @@ strong{
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
-  
 }     
 #map-container{
   width: 1000px;
