@@ -14,5 +14,4 @@ function initMap(){
   })
   google.maps.event.addListener(marker, 'click', function(){alert("YOU HAVE ARRIVED!");});
 }
-
 google.maps.event.addDomListener(window, 'load', initMap);
