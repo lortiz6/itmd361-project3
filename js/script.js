@@ -3,7 +3,7 @@ function initMap(){
   var myLocation = new google.maps.LatLng(41.83521262082427, -87.62550989609518);
   var setMap = {
     center: myLocation,
-    zoom: 15
+    zoom: 18
   }
   var project3map = new google.maps.Map(getMap, setMap);
   var marker = new google.maps.Marker({
